@@ -34,7 +34,7 @@ export const WithIcon = () => (
 )
 
 const ButtonStory = {
-  title: "Form/Atom/Button",
+  title: "Form/Button",
   component: Button
 }
 

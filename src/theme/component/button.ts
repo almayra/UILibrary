@@ -7,28 +7,28 @@ export const ButtonStyles = {
     sm: {
       fontSize: 13,
       px: 4,
-      py: 3
+      py: 3,
     },
     md: {
       fontSize: 13,
       px: 4,
       py: 3,
-    }
+    },
   },
   variants: {
-    solid:{
+    solid: {
       borderRadius: "20px",
       bg: "primary.700",
       color: "gray.700",
       _hover: {
         bg: "primary.600",
       },
-      _active:{
+      _active: {
         bg: "primary.900",
       },
-      _focus:{
+      _focus: {
         bg: "primary.900",
-      }
+      },
     },
     outline: {
       borderRadius: "20px",
@@ -36,42 +36,42 @@ export const ButtonStyles = {
       borderColor: "primary.700",
       color: "gray.700",
       _hover: {
-        bg: "primary.100"
+        bg: "primary.100",
       },
-      _active:{
+      _active: {
         bg: "primary.300",
       },
-      _focus:{
+      _focus: {
         bg: "primary.300",
-      }
+      },
     },
     ghost: {
       borderRadius: "20px",
       bg: "transparent",
       color: "link.100",
       _hover: {
-        bg: "gray.10"
+        bg: "gray.10",
       },
-      _active:{
+      _active: {
         bg: "gray.25",
       },
-      _focus:{
+      _focus: {
         bg: "gray.25",
-      }
+      },
     },
     secondary: {
       borderRadius: "20px",
       bg: "secondary.400",
       color: "gray.10",
       _hover: {
-        bg: "secondary.500"
+        bg: "secondary.500",
       },
-      _active:{
+      _active: {
         bg: "secondary.300",
       },
-      _focus:{
+      _focus: {
         bg: "secondary.300",
-      }
+      },
     },
     secondary_outline: {
       borderRadius: "20px",
@@ -79,28 +79,28 @@ export const ButtonStyles = {
       borderColor: "secondary.700",
       color: "gray.700",
       _hover: {
-        bg: "secondary.100"
+        bg: "secondary.100",
       },
-      _active:{
+      _active: {
         bg: "secondary.50",
       },
-      _focus:{
+      _focus: {
         bg: "secondary.50",
-      }
+      },
     },
     danger: {
       borderRadius: "20px",
       bg: "danger.300",
       color: "gray.10",
       _hover: {
-        bg: "danger.200"
+        bg: "danger.200",
       },
-      _active:{
+      _active: {
         bg: "danger.400",
       },
-      _focus:{
+      _focus: {
         bg: "danger.400",
-      }
+      },
     },
     danger_outline: {
       borderRadius: "20px",
@@ -108,14 +108,16 @@ export const ButtonStyles = {
       borderColor: "danger.300",
       color: "gray.700",
       _hover: {
-        bg: "danger.100"
+        bg: "danger.100",
       },
-      _active:{
+      _active: {
         bg: "danger.400",
       },
-      _focus:{
+      _focus: {
         bg: "danger.400",
-      }
+      },
     },
-  }
-}
+  },
+};
+
+export default ButtonStyles;

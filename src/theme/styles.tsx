@@ -1,5 +1,6 @@
 import { extendTheme } from "@chakra-ui/react";
-import { ButtonStyles as Button } from "./component/button.tsx";
+import { ButtonStyles as Button } from "./component/button.ts";
+import { BadgeStyles as Badge } from "./component/badge.ts"
 
 export const theme = extendTheme({
   colors:{
@@ -201,6 +202,7 @@ export const theme = extendTheme({
   },
   components: {
     Button,
+    Badge
   }
 })
 

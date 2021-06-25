@@ -7,7 +7,7 @@ import {theme} from "../src/theme/styles.tsx"
 export const Chakra = ({ children }) => (
   <ChakraProvider theme={theme}>
     <CSSReset />
-    <Box p={5}>
+    <Box>
       {children}
     </Box>
   </ChakraProvider>
