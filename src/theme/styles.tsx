@@ -1,6 +1,7 @@
 import { extendTheme } from "@chakra-ui/react";
 import { ButtonStyles as Button } from "./component/button.ts";
 import { BadgeStyles as Badge } from "./component/badge.ts"
+import { InputStyles as Input } from "./component/input.ts"
 
 export const theme = extendTheme({
   colors:{
@@ -202,7 +203,8 @@ export const theme = extendTheme({
   },
   components: {
     Button,
-    Badge
+    Badge,
+    Input
   }
 })
 
