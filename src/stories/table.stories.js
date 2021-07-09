@@ -2,11 +2,8 @@ import {
   Table,
   Thead,
   Tbody,
-  Tfoot,
   Tr,
-  Th,
   Td,
-  TableCaption,
   Checkbox
 } from "@chakra-ui/react"
 import { BsChevronExpand } from "react-icons/bs";

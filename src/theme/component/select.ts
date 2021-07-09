@@ -20,3 +20,5 @@ export const SelectStyles = {
     filled: variantFilled,
   },
 };
+
+export default variantFilled;

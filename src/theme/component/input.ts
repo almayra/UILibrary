@@ -1,4 +1,4 @@
-function variantFilled(props: Record<string,any>){
+function variantFilled(props: Record<string, any>) {
   return {
     field: {
       bg: "gray.50",
@@ -6,21 +6,23 @@ function variantFilled(props: Record<string,any>){
       borderColor: "gray.100",
       color: "gray.100",
       _hover: {
-        bg: "gray.75"
+        bg: "gray.75",
       },
       _invalid: {
-        borderColor: "danger.300"
+        borderColor: "danger.300",
       },
       _focus: {
         bg: "transparent",
-        borderColor: "primary.900"
-      }
-    }
-  }
+        borderColor: "primary.900",
+      },
+    },
+  };
 }
 
 export const InputStyles = {
   variants: {
-    filled: variantFilled
-  }
-}
+    filled: variantFilled,
+  },
+};
+
+export default variantFilled;

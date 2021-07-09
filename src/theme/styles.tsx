@@ -206,7 +206,7 @@ export const theme = extendTheme({
     Button,
     Badge,
     Input,
-    Select
+    Select,
   }
 })
 
